@@ -32,3 +32,26 @@ body,html{
     padding-left: 20px;
     padding-right: 20px; 
 }
+.row{
+    margin: 20px;
+}
+.col-6{
+    padding: 10px;
+}
+#wedo{
+    margin: 30px;
+}
+
+#contact{
+    position: relative;
+
+}
+.form{
+    position: absolute;
+    bottom: 140px;
+    right: 100px;
+
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px  
+}

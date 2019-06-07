@@ -592,6 +592,7 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  margin-top: 10px;
 }
 
 .no-gutters {
@@ -654,6 +655,7 @@ pre code {
   -ms-flex: 0 0 33.333333%;
   flex: 0 0 33.333333%;
   max-width: 33.333333%;
+  margin-top: 10px;
 }
 
 .col-5 {
@@ -666,6 +668,7 @@ pre code {
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
   max-width: 50%;
+  padding: 10px;
 }
 
 .col-7 {
@@ -701,7 +704,7 @@ pre code {
 .col-12 {
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
-  max-width: 100%;
+  max-width: 150%;
 }
 
 .order-first {
@@ -1028,6 +1031,7 @@ pre code {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
+    padding: 10px;
   }
   .col-md-5 {
     -ms-flex: 0 0 41.666667%;
