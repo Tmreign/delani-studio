@@ -1,1 +1,34 @@
-@import url("bootstrap.css")
+@import url("bootstrap.css");
+
+
+
+
+.top{
+        position: absolute;
+        top: 80%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+        color: aliceblue;
+    
+
+}
+
+body,html{
+    text-align: center;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.services{
+    position: relative;
+ 
+}
+.tservices{
+    position: absolute;
+    bottom: 140px;
+    right: 20px;
+
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
