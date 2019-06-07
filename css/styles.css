@@ -61,3 +61,8 @@ body,html{
     top: 200px;
 
 }
+.welcome{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    font-weight: 500px;
+}
