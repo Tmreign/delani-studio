@@ -669,6 +669,7 @@ pre code {
   flex: 0 0 50%;
   max-width: 50%;
   padding: 10px;
+  background-color: transparent;
 }
 
 .col-7 {
@@ -1868,8 +1869,8 @@ pre code {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
-  background-color: #fff;
+  color: #ffffff;
+  background-color:transparent;
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
@@ -1888,7 +1889,7 @@ pre code {
 }
 
 .form-control:focus {
-  color: #495057;
+  color: #ffffff;
   background-color: #fff;
   border-color: #80bdff;
   outline: 0;
@@ -1901,22 +1902,22 @@ pre code {
 }
 
 .form-control::-moz-placeholder {
-  color: #6c757d;
+  color: #fefeff;
   opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
-  color: #6c757d;
+  color: #ffffff;
   opacity: 1;
 }
 
 .form-control::-ms-input-placeholder {
-  color: #6c757d;
+  color: #ffffff;
   opacity: 1;
 }
 
 .form-control::placeholder {
-  color: #6c757d;
+  color: #ffffff;
   opacity: 1;
 }
 
@@ -2002,6 +2003,7 @@ textarea.form-control {
 
 .form-group {
   margin-bottom: 1rem;
+  background-color: transparent;
 }
 
 .form-text {
