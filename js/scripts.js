@@ -22,36 +22,58 @@ function tom(){
 }
 
 
-$(document).ready(function() {
+// $(document).ready(function() {
 
-    $('.tom').hover(function() {
-        $(this).find('.phone').fadeIn(300);
-    }, function(){
-        $(this).find('.phone').fadeOut(100);
+//     $('.tom').hover(function() {
+//         $(this).find('.phone').fadeIn(300);
+//     }, function(){
+//         $(this).find('.phone').fadeOut(100);
+//     });
+    $(document).ready(function () {
+
+        $('.tom').hover(function () {
+            $(this).find('.phone').fadeIn(300);
+        }, function () {
+            $(this).find('.phone').fadeOut(100);
+        });
+        
+        $(".hide p").hide();
+        $('#design').click(function () {
+            $('#design img').fadeToggle();
+            $('#design p').fadeToggle();
+        });
+        $('#dev').click(function () {
+            $('#dev img').fadeToggle();
+            $('#dev p').fadeToggle();
+        });
+        $('#product').click(function () {
+            $('#product img').fadeToggle();
+            $('#product p').fadeToggle();
+        });
+    
     });
-});
 
-$(document).ready(function(){
-    $('.p1').hide();
-    $('.pic1').click(function(){
-      $('.p1').slideToggle();
-     $('.p1').click()
-     $('.pic1').slideToggle();
+// $(document).ready(function(){
+//     $('.p1').hide();
+//     $('.pic1').click(function(){
+//       $('.p1').slideToggle();
+//      $('.p1').click()
+//      $('.pic1').slideToggle();
      
-    });
+//     });
 
-    $('.p2').hide();
-    $('.pic2').click(function(){
-       $('.p2').slideToggle();
-    $('.p2').click()
-     $('.pic2').slideToggle();
-    });
+//     $('.p2').hide();
+//     $('.pic2').click(function(){
+//        $('.p2').slideToggle();
+//     $('.p2').click()
+//      $('.pic2').slideToggle();
+//     });
 
-    $('.p3').hide();
-    $('.pic3').click(function(){
-      $('.p3').slideToggle();
-    $('.p3').click()
-     $('.pic3').slideToggle();
-    });
+//     $('.p3').hide();
+//     $('.pic3').click(function(){
+//       $('.p3').slideToggle();
+//     $('.p3').click()
+//      $('.pic3').slideToggle();
+//     });
 
-});
+// });
